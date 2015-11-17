@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="videoStore">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bondstone Video Rental</title>
+  <script src="/vendor/angular/angular.js" charset="utf-8"></script>
+  <script src="/vendor/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="/js/main.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body ng-controller="rootCtrl">
+  <top-bar></top-bar>
+  <div class="row-offcanvas row-offcanvas-left">
+    <side-bar></side-bar>
+    <div id="main">
+      <div class="col-md-12">
+        <p class="visible-xs">
+          <button type="button" class="btn btn-primary btn-xs" datatoggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
+        </p>
+        <div class="page {{ pageClass }}" ng-view></div>
+      </div>
+    </div>
+  </div>
+  <!--/row-offcanvas -->
+  <html>

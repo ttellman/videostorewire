@@ -1,0 +1,31 @@
+{
+  "name": "videostorewire",
+  "description": "VidoeStore app frontend mock",
+  "main": "index.html",
+  "authors": [
+    "Tim Tellman"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ttellman/videostorewire",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angucomplete-alt": "~2.1.0",
+    "angular-base64": "~2.0.5",
+    "angular-file-upload": "~2.2.0",
+    "tg-angular-validator": "~1.2.8",
+    "bootstrap": "~3.3.5",
+    "raty": "~2.7.0",
+    "angular-loading-bar": "~0.8.0",
+    "angular-bootstrap": "~0.14.3"
+  }
+}
